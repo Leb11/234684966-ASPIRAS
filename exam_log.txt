@@ -1,0 +1,40 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls >> notes.txt
+    5  cat notes.txt
+    6  echo "This is practical exam." >> notes.txt
+    7  head -n 1 notes.txt
+    8  tail -n 1 notes.txt
+    9  mkdir subdir
+   10  mv notes.txt subdir/
+   11  mv subdir practice_subdir
+   12  cp practice_subdir/
+   13  cp practice_subdir/notes.txt .
+   14  datw
+   15  date
+   16  uptime
+   17  du ~
+   18  ssh -V
+   19  php -v
+   20  mysql --version
+   21  pkg install mariadb
+   22  mysql --version
+   23  apache2 -v
+   24  apachectl -v
+   25  pkg install apache2
+   26  apache2 -v
+   27  apachectl -v
+   28  python --version
+   29  java -version
+   30  pkg install opemjdk
+   31  pkg install openjdk
+   32  java -version
+   33  git checkout -b final exam
+   34  git checkout -b finalexam
+   35  git add notes.txt
+   36  git commit -m "Added notes.txt with Linux command practices"
+   37  git push origin finalexam
+   38  cd ~
+   39  rm -rf linux_practice
+   40  history > exam_log.txt
